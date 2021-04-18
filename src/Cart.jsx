@@ -61,7 +61,7 @@ export default function Cart({ cart, setCart }) {
 
             <br></br>
             <br></br>
-            <img src={product.image} alt={product.name} /><br></br><br></br>
+            <img src={product.image} alt={product.name} /><br></br>
   
             <Button  variant="contained"     
             style={{
