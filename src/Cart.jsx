@@ -33,7 +33,12 @@ export default function Cart({ cart, setCart }) {
     <>
       <h1>Cart Items</h1>
       {cart.length > 0 && (
-        <Button variant="contained" startIcon={<RemoveShoppingCartIcon/>} onClick={clearCart}>Clear Cart</Button>
+        <Button
+        style={{
+          borderRadius: 35,
+          backgroundColor:"#fca45b",}} 
+        variant="contained" 
+        startIcon={<RemoveShoppingCartIcon/>} onClick={clearCart}>Clear Cart</Button>
       )}
       <div className="products">
         {cart.map((product, idx) => (
@@ -61,15 +66,18 @@ export default function Cart({ cart, setCart }) {
             <Button  variant="contained"     
             style={{
         borderRadius: 35,
-      
-       }}   startIcon={<DeleteForever/>} onClick={() => removeFromCart(product)}>
+        backgroundColor:"#fca45b",}}   startIcon={<DeleteForever/>} onClick={() => removeFromCart(product)}>
               Remove
             </Button>
           </div>
         ))}
       </div>
 
-      <div><h4>Total Cost: ₹{getTotalSum()}/-</h4></div>
+      <div>
+        <hr/>
+        <h3>Bill Total : ₹ {getTotalSum()}/-</h3>
+        <hr/>
+        </div>
     </>
   );
 }
