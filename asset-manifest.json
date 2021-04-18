@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/foodOderApp/static/css/main.670959da.chunk.css",
-    "main.js": "/foodOderApp/static/js/main.59ccb320.chunk.js",
-    "main.js.map": "/foodOderApp/static/js/main.59ccb320.chunk.js.map",
+    "main.js": "/foodOderApp/static/js/main.bad88bbe.chunk.js",
+    "main.js.map": "/foodOderApp/static/js/main.bad88bbe.chunk.js.map",
     "runtime-main.js": "/foodOderApp/static/js/runtime-main.5ce04602.js",
     "runtime-main.js.map": "/foodOderApp/static/js/runtime-main.5ce04602.js.map",
     "static/js/2.17f9fd44.chunk.js": "/foodOderApp/static/js/2.17f9fd44.chunk.js",
     "static/js/2.17f9fd44.chunk.js.map": "/foodOderApp/static/js/2.17f9fd44.chunk.js.map",
     "index.html": "/foodOderApp/index.html",
-    "precache-manifest.cfe4efd0202b5fcafe6fe44368e66e22.js": "/foodOderApp/precache-manifest.cfe4efd0202b5fcafe6fe44368e66e22.js",
+    "precache-manifest.ae4a1d0dee98a4d07da48515716f35cc.js": "/foodOderApp/precache-manifest.ae4a1d0dee98a4d07da48515716f35cc.js",
     "service-worker.js": "/foodOderApp/service-worker.js",
     "static/css/main.670959da.chunk.css.map": "/foodOderApp/static/css/main.670959da.chunk.css.map",
     "static/js/2.17f9fd44.chunk.js.LICENSE.txt": "/foodOderApp/static/js/2.17f9fd44.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ce04602.js",
     "static/js/2.17f9fd44.chunk.js",
     "static/css/main.670959da.chunk.css",
-    "static/js/main.59ccb320.chunk.js"
+    "static/js/main.bad88bbe.chunk.js"
   ]
 }
